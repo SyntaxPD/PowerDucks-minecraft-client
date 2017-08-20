@@ -5772,7 +5772,7 @@ public abstract class net/minecraft/world/World implements net/minecraft/world/I
     INVOKESTATIC net/minecraft/util/MathHelper.func_76134_b (F)F
     FCONST_2
     FMUL
-    LDC 0.5F
+    LDC 0.75F
     FADD
     FSTORE 4
    L2
@@ -6122,13 +6122,12 @@ public abstract class net/minecraft/world/World implements net/minecraft/world/I
   public func_72826_c(F)F
    L0
     LINENUMBER 1648 L0
-    ALOAD 0
-    GETFIELD net/minecraft/world/World.field_73011_w : Lnet/minecraft/world/WorldProvider;
+    INVOKESTATIC sedridor/B3M/B3M_Core.getInstance ()Lsedridor/B3M/B3M_Core;
     ALOAD 0
     GETFIELD net/minecraft/world/World.field_72986_A : Lnet/minecraft/world/storage/WorldInfo;
     INVOKEVIRTUAL net/minecraft/world/storage/WorldInfo.func_76073_f ()J
     FLOAD 1
-    INVOKEVIRTUAL net/minecraft/world/WorldProvider.func_76563_a (JF)F
+    INVOKEVIRTUAL sedridor/B3M/B3M_Core.calculateCelestialAngle (JF)F
     FRETURN
    L1
     LOCALVARIABLE this Lnet/minecraft/world/World; L0 L1 0

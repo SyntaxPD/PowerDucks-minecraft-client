@@ -1,0 +1,38 @@
+{
+  "profiles": {
+    "Forge": {
+      "name": "Forge",
+      "lastVersionId": "1.7.10-Forge10.13.0.1208"
+    },
+    "PowerDucks": {
+      "name": "PowerDucks",
+      "lastVersionId": "1.7.10-Forge10.13.4.1614-1.7.10",
+      "javaDir": "C:\\Program Files\\Java\\jre7\\bin\\javaw.exe",
+      "javaArgs": "-Xss1048K -Xmx8G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn256M -XX:MaxPermSize=256M",
+      "launcherVisibilityOnGameClose": "keep the launcher open"
+    }
+  },
+  "selectedProfile": "PowerDucks",
+  "clientToken": "c58e7523-c88f-4891-8407-aeb37d584ea5",
+  "authenticationDatabase": {
+    "9086a60724d742a38973dce1aeb5993f": {
+      "displayName": "SyntaxPD",
+      "userProperties": [
+        {
+          "name": "preferredLanguage",
+          "value": "ru"
+        }
+      ],
+      "accessToken": "9cc559ddf23b46f69a98752db6fc7617",
+      "userid": "817dcce074124bb1cb4ba289983e3a46",
+      "uuid": "9086a607-24d7-42a3-8973-dce1aeb5993f",
+      "username": "fromeast@rambler.ru"
+    }
+  },
+  "selectedUser": "9086a60724d742a38973dce1aeb5993f",
+  "launcherVersion": {
+    "name": "1.6.70",
+    "format": 18,
+    "profilesFormat": 1
+  }
+}
