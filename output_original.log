@@ -85,8 +85,8 @@ public abstract class net/minecraft/world/World implements net/minecraft/world/I
   // access flags 0x4
   protected Ljava/util/List; field_73021_x
 
-  // access flags 0x4
-  protected Lnet/minecraft/world/chunk/IChunkProvider; field_73020_y
+  // access flags 0x1
+  public Lnet/minecraft/world/chunk/IChunkProvider; field_73020_y
 
   // access flags 0x14
   protected final Lnet/minecraft/world/storage/ISaveHandler; field_73019_z
