@@ -1632,6 +1632,11 @@ public abstract class net/minecraft/world/World implements net/minecraft/world/I
     LINENUMBER 469 L22
    FRAME FULL [net/minecraft/world/World I I I net/minecraft/block/Block I I net/minecraft/world/chunk/Chunk net/minecraft/block/Block net/minecraftforge/common/util/BlockSnapshot I] []
     ILOAD 10
+    ALOAD 0
+    ILOAD 1
+    ILOAD 2
+    ILOAD 3
+    INVOKESTATIC zmaster587/advancedRocketry/atmosphere/AtmosphereHandler.onBlockChange (Lnet/minecraft/world/World;III)V
     IRETURN
    L1
     LINENUMBER 474 L1
@@ -1940,6 +1945,11 @@ public abstract class net/minecraft/world/World implements net/minecraft/world/I
     LINENUMBER 562 L11
    FRAME FULL [net/minecraft/world/World I I I I I net/minecraft/world/chunk/Chunk I I I] []
     ILOAD 9
+    ALOAD 0
+    ILOAD 1
+    ILOAD 2
+    ILOAD 3
+    INVOKESTATIC zmaster587/advancedRocketry/atmosphere/AtmosphereHandler.onBlockMetaChange (Lnet/minecraft/world/World;III)V
     IRETURN
    L1
     LINENUMBER 567 L1
