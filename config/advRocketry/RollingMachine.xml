@@ -1,0 +1,6132 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="true">
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<oreDict>sheetIron</oreDict>
+			<oreDict>sheetIron</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:pressureTank</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="2">
+		<input>
+			<oreDict>sheetSteel</oreDict>
+			<oreDict>sheetSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:pressureTank 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<oreDict>sheetAluminum</oreDict>
+			<oreDict>sheetAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:pressureTank 1 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="8">
+		<input>
+			<oreDict>sheetTitanium</oreDict>
+			<oreDict>sheetTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:pressureTank 1 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateIron</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductsheet 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductsheet 1 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductsheet 1 6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductsheet 1 7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 9</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductsheet 1 9</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:advancedRocketryproductsheet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
+			<oreDict>plateTitaniumIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:advancedRocketryproductsheet 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotInfusedGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17323</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleBlackSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19334</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAnyIron</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemPlates 1 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintuplePlutonium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21100</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleDarkSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19364</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleShadowIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21336</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleHaderoth</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18963</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19305</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLead</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemPlates 1 6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleTungstenSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19316</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleNeodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21067</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleLutetium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19078</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotVyroxeres</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17951</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleNeodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18067</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19020</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleIronMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18354</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleMagnesium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21018</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemPlates 1 5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTriplePrometheum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19960</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleNaquadah</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18324</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleInfusedGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20323</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleYttriumBariumCuprate</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18358</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleIgnatius</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21950</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleBismuth</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19090</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleForce</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20521</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleEndium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18770</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintuplePromethium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21068</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21301</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintuplePigIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21307</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTriplePalladium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19052</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTinAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17363</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleAnyIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21032</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleNaquadria</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19327</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleOureclase</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20961</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleBlueAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20309</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleBlackBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20352</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintuplePlatinum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21085</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleTin</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21057</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleNichrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21311</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleAnyCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19035</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleAluminium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20019</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleMolybdenum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20048</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBismuthBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17353</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleVulcanite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21489</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20054</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleVulcanite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18489</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleCupronickel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20310</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleAntimony</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20058</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintuplePotassium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21025</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleKanthal</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19312</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleDarkSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18364</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleManganese</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19031</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleTinAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21363</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDarkSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17364</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleHepatizon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21957</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleCelenegil</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18964</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleYttriumBariumCuprate</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19358</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleFierySteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18346</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTellurium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17059</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleEnderium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18321</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleCupronickel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18310</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleLanthanum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21064</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleCupronickel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21310</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleErbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18075</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleStainlessSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19306</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleNaquadahAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19325</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleAngmallen</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20958</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleNaquadria</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18327</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBatteryAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17315</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotRedAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17308</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleTritanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18329</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotHaderoth</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17963</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleRedSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21348</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleMeteoricIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18340</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleMeteoricIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21340</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleDuranium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18328</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleIronMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20354</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleSunnarium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19318</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNichrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17311</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18032</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotKnightmetal</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17362</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleAnyIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19032</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotStainlessSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17306</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLutetium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17078</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleOureclase</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21961</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleMeteoricSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19341</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleEnderium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19321</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleNiobium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18047</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAngmallen</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17958</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleTinAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20363</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTriplePotassium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19025</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleMolybdenum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21048</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleScandium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19027</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleAstralSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20333</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18034</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleSunnarium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21318</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAluminium</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 9</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleThulium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20076</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleIndium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21056</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleInolashite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21954</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleSunnarium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20318</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleAmericium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21103</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18084</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleSteeleaf</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19339</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleMeteoricSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18341</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleMeteoricIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19340</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleSteeleaf</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21339</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleAmericium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20103</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleMidasium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21332</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleIndium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18056</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotYtterbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17077</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotHepatizon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17957</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleLead</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19089</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleTartarite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20956</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotOsmium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17083</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleThaumium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18330</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleDeepIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19829</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleInvar</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18302</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleAtlarus</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20965</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21084</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleInvar</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20302</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleKnightmetal</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20362</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleOsmium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21083</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDeepIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17829</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleHolmium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19074</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleIgnatius</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18950</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleDamascusSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20335</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleInfusedGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21323</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleLutetium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20078</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:advancedRocketryproductplate 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoublePlutonium241</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18101</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEndium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17770</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleCobaltBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21343</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadruplePlutonium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20100</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleNaquadah</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19324</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21032</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleDarkSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20364</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleNiobium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21047</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIndium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17056</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMeteoricSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17341</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBeryllium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17008</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20305</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSolderingAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17314</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleBlueSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19349</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleInolashite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19954</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleDamascusSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18335</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleThulium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21076</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotShadowIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17336</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTriplePigIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19307</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleZinc</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20036</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIgnatius</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17950</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleNiobiumTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19360</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleOsmiridium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19317</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleAdamant</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18319</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17301</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleSteelMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19355</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleManganese</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18031</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleTellurium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18059</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleIronMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19354</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19034</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21300</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleAtlarus</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18965</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleLead</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18089</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintuplePlutonium241</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21101</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPalladium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17052</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18086</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleUranium235</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18097</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleHaderoth</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21963</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleNiobiumTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18360</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleRubidium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18043</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleMidasium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19332</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleBlueSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18349</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20035</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleLanthanum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20064</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleMagnesium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19018</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleBlackBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21352</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIronMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17354</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMithril</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17331</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleWroughtIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21304</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemPlates 1 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19301</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleNiobiumNitride</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19359</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19028</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleCaesium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18062</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadruplePromethium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20068</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNeodymiumMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17356</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleWroughtIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18304</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleCaesium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21062</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleNaquadahEnriched</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18326</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleNichrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20311</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotUranium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17098</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleInolashite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18954</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCarmot</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17962</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21054</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleSterlingSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21350</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleZinc</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19036</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleFZDarkIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20342</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleBlackSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21334</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBlackSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17334</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotThulium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17076</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleTartarite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19956</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleHepatizon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20957</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleElectrumFlux</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19320</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPigIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17307</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleTellurium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19059</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleTin</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18057</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleLithium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21006</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleSanguinite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18955</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleIronMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21354</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleIgnatius</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19950</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleMeteoricSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20341</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleShadowIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19336</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleVanadium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20029</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemPlates</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleBlackBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19352</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotVulcanite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17489</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPromethium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17068</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleTellurium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20059</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleSunnarium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18318</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleThaumium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19330</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleLutetium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18078</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleVanadiumGallium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21357</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotGold</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemPlates 1 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleElectrum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20303</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleFierySteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20346</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleUranium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20098</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleMithril</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18331</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleAngmallen</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19958</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPotassium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17025</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleTritanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19329</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPrometheum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17960</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleManganese</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20031</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleRedAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19308</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleScandium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18027</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleHepatizon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19957</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleInvar</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21302</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleLithium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19006</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotErbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17075</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleAnyCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20035</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleDeepIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21829</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20084</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCobalt</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17033</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleNiobium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20047</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleFierySteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19346</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleGadolinium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19071</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotThorium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17096</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleArsenic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21039</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSteeleaf</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17339</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleDeepIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20829</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotForce</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17521</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleShadowSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19337</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotShadowSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17337</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleAntimony</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18058</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleDuranium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20328</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleZinc</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21036</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleOsmiridium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21317</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleLanthanum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18064</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleAnyCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21035</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotRubber</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17880</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotUltimet</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17344</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20020</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleCobalt</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21033</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBlueAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17309</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotFierySteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17346</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleAmericium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18103</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleCobaltBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18343</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCaesium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17062</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleIronWood</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21338</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleNiobiumNitride</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18359</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleBismuth</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21090</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleRoseGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19351</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleGadolinium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20071</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSanguinite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17955</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleBatteryAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21315</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleArsenic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19039</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleTantalum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18080</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18081</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNeodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17067</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleTartarite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18956</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleSanguinite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21955</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleCeruclase</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20952</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleYttrium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19045</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleMidasium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18332</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMagnesium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17018</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleMolybdenum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19048</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleCarmot</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19962</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleAnyCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18035</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleCelenegil</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20964</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleUltimet</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20344</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleSamarium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20069</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleTritanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21329</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTungstenSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17316</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleSteeleaf</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18339</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleArsenic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20039</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleThorium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20096</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleBismuth</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18090</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMolybdenum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17048</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleKanthal</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21312</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleBatteryAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18315</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBismuth</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17090</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBlueSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17349</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleUranium235</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19097</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21035</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleOsmiridium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20317</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleTungstenSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21316</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleRedSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18348</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleBlackBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18352</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleThulium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18076</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleNeodymiumMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18356</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCupronickel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17310</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotYttrium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17045</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleBeryllium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20008</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleDysprosium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20073</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotElectrumFlux</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17320</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotOureclase</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17961</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNeutronium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17129</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleIndium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19056</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleYttrium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21045</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleYtterbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21077</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20028</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleNichrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18311</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleBeryllium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19008</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleBlackSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18334</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleMithril</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20331</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleSanguinite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20955</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleAnnealedCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21345</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotGadolinium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17071</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleChromiumDioxide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20361</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPlastic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17874</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleThorium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18096</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleVyroxeres</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21951</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleTungstenSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20316</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleSteelMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20355</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleBeryllium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18008</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleNaquadahEnriched</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21326</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTriplePraseodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19066</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleScandium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21027</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleAntimony</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19058</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleGallium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21037</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleCerium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18065</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleScandium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20027</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintuplePraseodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21066</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleLead</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21089</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleEndium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21770</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotRubidium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17043</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleElectrumFlux</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20320</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleVanadiumGallium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18357</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17081</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadruplePrometheum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20960</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleSolderingAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21314</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleFierySteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21346</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19086</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleNichrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19311</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleTin</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19057</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleTerbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19072</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleTungstenSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18316</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleErbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19075</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNiobiumNitride</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17359</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleHSLA</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20322</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleMagnalium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19313</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleYttrium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18045</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleSolderingAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20314</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAnyBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemPlates 1 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotInvar</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17302</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleUltimet</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19344</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleManganese</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21031</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleEximite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20959</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleTinAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18363</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNiobiumTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17360</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleBlueAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21309</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleCaesium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19062</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleElectrum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21303</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadruplePotassium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20025</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleBlueAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19309</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleOsmium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18083</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleGallium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20037</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleElectrumFlux</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21320</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21034</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleStainlessSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21306</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotInfuscolium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17490</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleIronWood</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20338</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleAnnealedCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18345</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMagnalium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17313</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleYttriumBariumCuprate</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21358</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleSolderingAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18314</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleBismuthBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18353</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoublePromethium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18068</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17054</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleEnderium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20321</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleKalendrite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19953</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoublePotassium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18025</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18305</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAtlarus</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17965</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleNiobiumTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21360</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleArsenic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18039</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleYtterbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18077</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleOrichalcum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18966</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSunnarium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17318</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleTantalum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19080</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleNeodymiumMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19356</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleThulium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19076</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleErbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20075</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleCarmot</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20962</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleDamascusSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19335</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleChrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20030</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleVanadium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21029</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleMithril</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21331</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleLutetium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21078</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAnyCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemPlates</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleNaquadria</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20327</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleOsmium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19083</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleMagnalium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20313</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleForce</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18521</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18054</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleUranium235</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21097</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleThorium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19096</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleTerbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20072</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNaquadahEnriched</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17326</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleBlueSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21349</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17034</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleAstralSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19333</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleHolmium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20074</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAmericium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17103</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleGallium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18037</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleBlueSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20349</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleWroughtIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19304</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTriplePromethium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19068</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleUranium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19098</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleEximite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21959</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPlutonium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17100</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleShadowIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18336</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleRedAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18308</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleKalendrite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18953</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleNeodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20067</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleKalendrite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21953</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleVyroxeres</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18951</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18028</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleAnnealedCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19345</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLanthanum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17064</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18020</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleDuranium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19328</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleNeutronium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20129</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCobaltBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17343</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20086</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleNaquadah</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21324</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleOsmiridium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18317</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleUltimet</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21344</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleEndium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19770</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadruplePigIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20307</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19035</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleNaquadahAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20325</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleCobalt</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20033</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>libVulpes:libVulpesproductplate 1 7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleSamarium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18069</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleAstralSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18333</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleOrichalcum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20966</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleBismuth</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20090</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleAnyBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18300</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleStainlessSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20306</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleInfusedGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18323</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleEximite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19959</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleMeteoricIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20340</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleAnyIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20032</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18035</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleYttriumBariumCuprate</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20358</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleInfuscolium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18490</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleTantalum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20080</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTerbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17072</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleCerium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19065</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleHSLA</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18322</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotWroughtIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17304</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDuranium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17328</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleAnyIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18032</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleVyroxeres</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20951</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemPlates 1 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleWroughtIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20304</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotRedSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17348</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotChromiumDioxide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17361</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleUltimet</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18344</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleDysprosium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21073</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleVanadiumGallium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20357</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotInolashite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17954</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleMeteoricSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21341</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleNeodymiumMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20356</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleNaquadahAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21325</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleDamascusSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21335</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotHolmium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17074</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleTellurium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21059</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleUranium235</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20097</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadruplePalladium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20052</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleSamarium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21069</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleNeutronium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18129</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleOrichalcum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19966</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCeruclase</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17952</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleLanthanum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19064</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleSamarium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19069</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleMagnesium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18018</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleInfuscolium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19490</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleCarbon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20010</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotGallium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17037</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleTantalum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21080</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleAntimony</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21058</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleBatteryAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19315</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPlatinum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17085</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleShadowSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18337</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleNaquadah</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20324</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleTin</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20057</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleCupronickel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19310</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleCelenegil</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19964</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleInvar</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19302</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleOrichalcum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21966</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleHSLA</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19322</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleHaderoth</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19963</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotOsmiridium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17317</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleStainlessSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18306</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleDesh</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21884</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleKnightmetal</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18362</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21081</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAstralSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17333</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedRocketry:advancedRocketryproductplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleDuranium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21328</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleVyroxeres</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19951</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleSteelMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21355</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoublePalladium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18052</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleLead</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20089</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleRoseGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21351</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotManganese</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17031</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleBeryllium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21008</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleCeruclase</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21952</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleCerium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20065</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNiobium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17047</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleMagnalium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21313</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotHSLA</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17322</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTriplePlutonium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19100</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotKalendrite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17953</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleEndium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20770</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleCeruclase</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18952</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotThaumium</oreDict>
+		</input>
+		<output>
+			<itemStack>EMT:EMTItems 1 5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotYttriumBariumCuprate</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17358</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleShadowSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21337</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleCeruclase</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19952</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNaquadria</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17327</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleElectrumFlux</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18320</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDysprosium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17073</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleInfuscolium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20490</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleElectrum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18303</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEuropium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17070</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleKanthal</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18312</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleCobalt</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19033</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleLithium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20006</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleDeepIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18829</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19300</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleFzDarkIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19342</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleAluminium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21019</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSteelMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17355</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleAtlarus</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21965</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotUranium235</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17097</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleNiobiumNitride</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21359</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleNiobiumNitride</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20359</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19084</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleTinAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19363</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleIndium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20056</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleAnnealedCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20345</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleCobalt</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18033</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleMagnalium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18313</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLithium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17006</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleNaquadahEnriched</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20326</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleMagnesium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20018</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleBlackSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20334</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleVanadium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19029</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleBismuthBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19353</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintuplePalladium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21052</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleVanadium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18029</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPraseodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17066</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleCelenegil</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21964</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleThorium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21096</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoublePrometheum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18960</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleBatteryAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20315</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleNiobium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19047</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleMidasium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20332</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleCarbon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21010</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleElectrum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19303</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleChrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18030</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotVanadiumGallium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17357</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleMithril</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19331</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleAluminium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18019</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadruplePraseodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20066</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleAmericium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19103</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleHepatizon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18957</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleNeutronium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19129</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleIronWood</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18338</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleRubidium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20043</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotScandium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17027</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleVulcanite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19489</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotObsidian</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemPlates 1 7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleShadowIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20336</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleTerbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18072</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTin</oreDict>
+		</input>
+		<output>
+			<itemStack>IC2:itemPlates 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleVulcanite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20489</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleBismuthBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20353</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleChromiumDioxide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18361</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleNeodymiumMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21356</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCelenegil</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17964</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleErbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21075</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotChrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17030</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleChromiumDioxide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19361</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleTritanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20329</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotKanthal</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17312</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTriplePlatinum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19085</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleKanthal</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20312</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotVanadium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17029</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleEnderium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21321</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleChrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19030</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleHolmium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21074</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAnnealedCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17345</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleLithium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18006</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleShadowSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20337</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleOureclase</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19961</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotOrichalcum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17966</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19032</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleAdamantium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21319</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadruplePlatinum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20085</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleIgnatius</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20950</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleOureclase</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18961</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleNiobiumTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20360</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleVanadiumGallium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19357</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleUranium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18098</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleDysprosium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19073</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleRoseGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18351</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDarkIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17342</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleRedSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20348</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIronWood</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17338</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20034</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleEuropium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20070</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleFzDarkIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18342</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCarbon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17010</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotElectrum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17303</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotZinc</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17036</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTartarite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17956</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleNaquadahAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18325</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleIronWood</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19338</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleCaesium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20062</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleCobaltBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20343</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleNaquadahEnriched</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19326</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19054</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20081</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleSanguinite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19955</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleAstralSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21333</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleSterlingSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20350</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleDarkSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21364</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleInfusedGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19323</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleRoseGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20351</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleHaderoth</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20963</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleKnightmetal</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21362</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18301</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCerium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17065</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleHSLA</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21322</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMidasium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17332</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleDysprosium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18073</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleUranium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21098</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleNaquadria</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21327</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPlutonium241</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17101</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleAdamant</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19319</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleTerbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21072</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleCarmot</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18962</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleAtlarus</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19965</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAdamant</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17319</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoublePlutonium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18100</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleChromiumDioxide</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21361</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleSterlingSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18350</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSterlingSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17350</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNaquadah</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17324</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleEuropium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21070</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleBismuthBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21353</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleRedAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21308</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleAngmallen</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21958</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleEuropium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18070</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleGadolinium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18071</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleDesh</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20884</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleNeutronium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21129</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleCerium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21065</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21086</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadruplePlutonium241</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20101</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleDesh</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18884</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDesh</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17884</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMeteoricIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17340</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21020</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleThaumium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21330</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTantalum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17080</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleAnyBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20300</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleYtterbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20077</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleDesh</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19884</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleRedSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19348</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoublePigIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18307</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleTartarite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21956</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleSterlingSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19350</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleGallium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19037</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleRubidium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19043</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleFZDarkIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21342</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoublePraseodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18066</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDamascusSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17335</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNaquadahAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17325</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleNeodymium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19067</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21028</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleAluminium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19019</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleCarbon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18010</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTriplePlutonium241</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19101</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleSolderingAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19314</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoublePlatinum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18085</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleZinc</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18036</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleBlueAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18309</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleOsmium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20083</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEximite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17959</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleSteeleaf</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20339</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleChrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21030</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAntimony</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17058</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleCobaltBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19343</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleKalendrite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20953</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleInolashite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20954</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotEnderium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17321</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTritanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17329</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleEuropium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19070</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleInfuscolium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21490</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleMolybdenum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18048</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleGadolinium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21071</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19081</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleKnightmetal</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19362</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleRubidium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21043</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintuplePrometheum</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21960</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleAngmallen</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18958</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleHolmium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18074</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleYtterbium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19077</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotRoseGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17351</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20301</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleForce</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21521</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleThaumium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20330</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleCarbon</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19010</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21305</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleRedAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20308</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleEximite</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18959</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotArsenic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17039</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSamarium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17069</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleAdamantium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20319</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTripleForce</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 19521</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleYttrium</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20045</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuadrupleIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 20032</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBlackBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 17352</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotQuintupleCarmot</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 21962</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDoubleSteelMagnetic</oreDict>
+		</input>
+		<output>
+			<itemStack>gregtech:gt.metaitem.01 1 18355</itemStack>
+		</output>
+	</Recipe>
+</Recipes>
